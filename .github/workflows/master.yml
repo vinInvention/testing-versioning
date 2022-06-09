@@ -16,5 +16,5 @@ jobs:
       with:
         server: 151.101.2.133
         username: ${{secrete.FTP_USERNAME2}}
-        //password: ${{ secrets.FTP_PASSWORD2 }}
+        password: ${{ secrets.FTP_PASSWORD2 }}
         server-dir: https://dashboard.heroku.com/apps/testing-version-control/
