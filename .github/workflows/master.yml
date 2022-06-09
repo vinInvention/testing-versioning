@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: 151.101.2.133
-        username: ${{vincentchinonyerem@gmail.com}}
-        password: ${{Stu(63)Inv}}
+        username: ${{secrets.ftp_username}}
+        password: ${{secrets.ftp_password}}
         server-dir: https://dashboard.heroku.com/apps/testing-version-control/
